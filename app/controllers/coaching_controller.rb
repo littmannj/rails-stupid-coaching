@@ -4,4 +4,12 @@ class CoachingController < ApplicationController
 
   def ask
   end
+
+
+  def index
+
+    @category = params[:query]
+
+  end
+
 end
